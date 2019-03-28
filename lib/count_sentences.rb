@@ -15,8 +15,6 @@ class String
   end
 
   def count_sentences
-    sentence = self.split('. ')
-    puts sentence
-    binding.pry
+    if self.include?('. ', '? ', "! ")
   end
 end
