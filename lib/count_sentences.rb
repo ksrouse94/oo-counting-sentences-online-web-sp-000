@@ -20,7 +20,8 @@ class String
       counts = words_array.count
       counts
     else 
-      false
+      count = 0 
+      count
     end  
   end
 end
