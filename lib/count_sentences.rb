@@ -19,6 +19,8 @@ class String
       words_array = self.split('. ', '? ', "! ")
       counts = words_array.count
       counts
+    else 
+      false
     end  
   end
 end
