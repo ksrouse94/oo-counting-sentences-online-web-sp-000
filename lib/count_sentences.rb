@@ -17,6 +17,5 @@ class String
   def count_sentences
     sentence = self.split('. ', '! ')
     binding pry
-    puts sentence
   end
 end
