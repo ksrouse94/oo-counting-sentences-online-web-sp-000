@@ -18,6 +18,7 @@ class String
     if self.include?('. ', '? ', "! ")
       words_array = self.split('. ', '? ', "! ")
       count = words_array.count
+      count
     end  
   end
 end
