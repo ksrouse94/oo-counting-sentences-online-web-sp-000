@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     if self.include?('. ' || '? ' || '! ')
-      words_array = self.split('. ' || '? ' || "! ") 
+      words_array = self.split(/[.?!]/) 
       counts = words_array.count
       counts
     else 
